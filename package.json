@@ -1,0 +1,17 @@
+{
+  "name": "quan-ly-sach-mvp",
+  "version": "1.0.0",
+  "description": "MVP quản lý sách: CRUD bảng books, tự động deploy lên Render bằng GitHub Actions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  },
+  "license": "MIT"
+}
